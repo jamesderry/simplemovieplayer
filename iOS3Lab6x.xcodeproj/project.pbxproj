@@ -21,6 +21,8 @@
 		D0EC3C5B1844367600B3FEC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EC3C3D1844367600B3FEC1 /* UIKit.framework */; };
 		D0EC3C631844367600B3FEC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0EC3C611844367600B3FEC1 /* InfoPlist.strings */; };
 		D0EC3C651844367600B3FEC1 /* iOS3Lab6xTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EC3C641844367600B3FEC1 /* iOS3Lab6xTests.m */; };
+		D0EC3C6F184436C400B3FEC1 /* sintel_trailer-1080p.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D0EC3C6E184436C400B3FEC1 /* sintel_trailer-1080p.mp4 */; };
+		D0EC3C711844372000B3FEC1 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EC3C701844372000B3FEC1 /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		D0EC3C601844367600B3FEC1 /* iOS3Lab6xTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS3Lab6xTests-Info.plist"; sourceTree = "<group>"; };
 		D0EC3C621844367600B3FEC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D0EC3C641844367600B3FEC1 /* iOS3Lab6xTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS3Lab6xTests.m; sourceTree = "<group>"; };
+		D0EC3C6E184436C400B3FEC1 /* sintel_trailer-1080p.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sintel_trailer-1080p.mp4"; sourceTree = "<group>"; };
+		D0EC3C701844372000B3FEC1 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0EC3C711844372000B3FEC1 /* MediaPlayer.framework in Frameworks */,
 				D0EC3C3C1844367600B3FEC1 /* CoreGraphics.framework in Frameworks */,
 				D0EC3C3E1844367600B3FEC1 /* UIKit.framework in Frameworks */,
 				D0EC3C3A1844367600B3FEC1 /* Foundation.framework in Frameworks */,
@@ -82,6 +87,7 @@
 		D0EC3C2D1844367600B3FEC1 = {
 			isa = PBXGroup;
 			children = (
+				D0EC3C6E184436C400B3FEC1 /* sintel_trailer-1080p.mp4 */,
 				D0EC3C3F1844367600B3FEC1 /* iOS3Lab6x */,
 				D0EC3C5E1844367600B3FEC1 /* iOS3Lab6xTests */,
 				D0EC3C381844367600B3FEC1 /* Frameworks */,
@@ -101,6 +107,7 @@
 		D0EC3C381844367600B3FEC1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D0EC3C701844372000B3FEC1 /* MediaPlayer.framework */,
 				D0EC3C391844367600B3FEC1 /* Foundation.framework */,
 				D0EC3C3B1844367600B3FEC1 /* CoreGraphics.framework */,
 				D0EC3C3D1844367600B3FEC1 /* UIKit.framework */,
@@ -230,6 +237,7 @@
 			files = (
 				D0EC3C521844367600B3FEC1 /* Images.xcassets in Resources */,
 				D0EC3C441844367600B3FEC1 /* InfoPlist.strings in Resources */,
+				D0EC3C6F184436C400B3FEC1 /* sintel_trailer-1080p.mp4 in Resources */,
 				D0EC3C4D1844367600B3FEC1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
